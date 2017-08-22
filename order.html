@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Happy Hookers | Custom Orders</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-con" />
+<link rel="stylesheet" media="screen" type="text/css" href="assets/colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="assets/datepicker/jquery-ui.css"/>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/colorpicker/js/colorpicker.js"></script>
+<script type="text/javascript" src="assets/datepicker/jquery-ui.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<header>
+    	<a href="index.html"><img src="assets/logo.png" alt="Happy Hookers"></a>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="tuts.html">Tutorials</a>
+        <a href="order.html">Custom Order</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <h5>Happy Hookers | <span class="current">Custom Orders</span></h5>
+    <div id="column1">
+    	<h2>New Items</h2>
+        <hr>
+        <img src="assets/case.png" alt="Crochet Owl Phone Case"><br>
+        <span class="item">Owl Phone Case</span>
+        <p>$8.00</p>
+        <button type="button">Add to Cart</button><br><br>
+        <img src="assets/bambooHooks.png" alt="Crochet Hooks with Bamboo Handle" class="itemImg"><br>
+        <span class="item">Crochet Hooks with Bamboo Handle</span>
+        <p>$5.00</p>
+        <button type="button">Add to Cart</button>
+    </div>
+    <div id="column2">
+    	<h1>Custom Orders</h1>
+        <div id="clicker">Click to Custom Order a Pattern</div>
+        <div id="panel">
+        <form id="customPattern">
+        	<fieldset>
+        	<legend>Description</legend>
+            <p>Please enter the description of the pattern you are looking for.</p>
+            <textarea cols="70" rows="20" placeholder="Please enter detailed description."></textarea>
+            </fieldset>
+            <fieldset>
+            <legend>Do you need yarn?</legend>
+            <input type="radio" name="choice" value="yes" id="yesClicker">Yes<br>
+            <div id="yesPanel">
+            Choose a Color:<br><br>
+            <div id="colorPicker"></div>
+            </div>
+            <input type="radio" name="choice" value="no" id="noClicker" checked="checked">No<br>
+            </fieldset>
+            <fieldset>
+            <legend>Request pattern?</legend>
+            <button type="button">Submit</button>
+            </fieldset>
+        </form>
+        </div>
+        <div id="clicker2">Click to Custom Order a Hand Made Item</div>
+        <div id="panel2">
+        <form id="customItem">
+        	<fieldset>
+        	<legend>Description</legend>
+            <p>Please enter the description of the crocheted item you are looking for.</p>
+            <textarea cols="70" rows="20" placeholder="Please enter detailed description."></textarea>
+            </fieldset>
+            <fieldset>
+            <legend>When do you need the item?</legend>
+            <div id="datepicker"></div>
+            </fieldset>
+            <fieldset>
+            <legend>Request pattern?</legend>
+            <button type="button">Submit</button>
+            </fieldset>
+        </form>
+        </div>
+    </div>
+    <footer>
+    	Copyright &copy; 2015 Happy Hookers<br>
+        <a href=" ">happyhookers@contact.com</a>
+    </footer>
+</div>
+</body>
+</html>

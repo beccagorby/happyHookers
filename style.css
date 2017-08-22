@@ -1,0 +1,129 @@
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: rgba(153, 153, 0, .4);
+}
+#wrapper {
+	margin: auto;
+}	
+header {
+	position: relative;
+	width: 1200px;
+	height: 100px;
+	background-image: url(assets/basket.png);
+	margin: 0 auto;
+	margin-top: -15px;
+	z-index: 1;
+	text-align: center;
+	color: #4497d7;
+}
+header img {
+	background-color: rgba(255, 255, 255, .3);
+	border-radius: 20px;
+}
+nav {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -70px;
+}
+nav a:link, nav a:active, nav a:visited {
+	display: inline-block;
+	width: 190px;
+	height: 138px;
+	background-image: url(assets/navItem.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	line-height: 7;
+	text-decoration: none;
+	font-size: 24px;
+	color: white;
+}
+nav a:hover {
+	color: #4497d7;
+}
+h1, h2 {
+	color: white;	
+}
+a:link, a:active, a:visited {
+	color: #4497d7;	
+}
+a:hover {
+	color: white;
+}	
+#column1 {
+	float: left;
+	background-color: rgba(255, 255, 255, .3);	
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#column2 {
+	margin-left: 290px;
+	padding: 10px;
+	/*text-align: center;*/
+}
+.welcome {
+	text-indent: 20px;
+}
+#hooks {
+	
+}
+.current, .item {
+	text-decoration: underline;	
+}
+.itemImg {
+	border: 2px solid black;	
+}
+footer {
+	clear: both;
+	width: 100%;
+	padding: 10px;	
+	font-size: small;
+	font-style: italic;
+}
+table {
+	text-align: center;	
+}
+table td {
+	padding: 10px;	
+}
+#clicker, #panel, #panel2, #clicker2 {
+	padding: 5px;
+	text-align: center;
+	background-color: rgba(68,151,215,.5);
+	border: 1px solid black;
+	margin: 0 auto;
+}
+#clicker, #clicker2 {
+	width: 50%;
+	font-size: 22px;
+	margin-top: 50px;
+}
+#panel, #panel2 {
+	width: 80%;
+	display: none;	
+	padding: 10px;
+}
+#yesPanel {
+	width: 80%;	
+	padding: 10px;
+}
+fieldset {
+	text-align: left;	
+}
+legend {
+	font-weight:bold;
+	margin: 10px;
+}
+#contact label {
+	float: left;
+	display:block;
+	text-align: right;
+	width: 120px;
+	padding-right: 20px;	
+}
+#contact input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
